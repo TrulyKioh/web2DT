@@ -1,0 +1,10 @@
+<?php
+$number = readline('Digite um número real: ');
+
+if($number > 0 ){
+    echo "Número positivo";
+}else if($number < 0){
+    echo "Número negativo";
+}else{
+    echo "O número é zero";
+}
