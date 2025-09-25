@@ -72,3 +72,21 @@ body {
 .movie-card img:hover {
   transform: scale(1.05);
 }
+
+.fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: #793a83;
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.fab:hover {
+  background: #5e2d68;
+}

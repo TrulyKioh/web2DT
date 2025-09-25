@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="editar_filme.css">
 </head>
 <body>
+  <button class="exit-btn" onclick="window.close()">✖</button>
+  
     <div class="cover">
       <input type="file" id="coverInput" accept="image/*">
       <label for="coverInput">Escolher Capa</label>
@@ -29,7 +31,7 @@
         <small id="genreCount">0 gêneros</small>
 
 
-      <button class="create-btn">Salvar alterações</button>
+      <button class="create-btn">Criar</button>
     </div>
   </div>
 
@@ -49,7 +51,6 @@
     }
   });
 
-  // Contagem de gêneros
   const genreInput = document.getElementById('genres');
   const genreCount = document.getElementById('genreCount');
 
